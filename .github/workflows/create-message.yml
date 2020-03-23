@@ -16,7 +16,7 @@ jobs:
       with:
         args: 'ENTER MESSAGE HERE'
       runs:
-      using: 'docker'
-      image: 'Dockerfile'
-      args:
-        - ${{ inputs.args }}
+        using: 'docker'
+        image: 'Dockerfile'
+        args:
+          - ${{ inputs.args }}
