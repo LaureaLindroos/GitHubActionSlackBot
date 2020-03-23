@@ -11,7 +11,6 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_USERNAME: Action Messager
-        SLACK_CHANNEL: dp-isx-cs-returns-notifications
         SLACK_AVATAR: https://www.google.com/url?sa=i&url=http%3A%2F%2Fnickpizzo.github.io%2FFirst-Responsive-Site%2F&psig=AOvVaw1qz5ER34vGplhbuBLXC0eq&ust=1585061369020000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDMmvLrsOgCFQAAAAAdAAAAABAI
       with:
         args: 'ENTER MESSAGE HERE'
