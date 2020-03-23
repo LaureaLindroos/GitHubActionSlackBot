@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require('./node_modules/axios');
 const message = require('./message.js');
 
 const REQUIRED_ENV_VARS = [

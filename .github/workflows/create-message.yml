@@ -1,5 +1,6 @@
 on: push
-  branches: master
+  branches:
+    - master
 name: Slack GitHub Action
 jobs:
   slackNotification:

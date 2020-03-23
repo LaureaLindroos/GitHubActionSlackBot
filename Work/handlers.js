@@ -1,6 +1,6 @@
 const fs = require('fs');
-const _ = require('lodash');
-const yargs = require('yargs');
+const _ = require('./node_modules/lodash');
+const yargs = require('./node_modules/yargs');
 const args = yargs.argv._;
 
 _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
